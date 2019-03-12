@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VHS
+Comment=VHS P2P Cryptocurrency
+Exec=vhs-qt %u
+Terminal=false
+Type=Application
+Icon=vhs128
+MimeType=x-scheme-handler/vhs;
+Categories=Office;Finance;
+Name[ru]=vhs-qt.desktop.desktop

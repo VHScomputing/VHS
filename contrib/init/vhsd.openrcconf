@@ -1,0 +1,26 @@
+# /etc/conf.d/vhsd: config file for /etc/init.d/vhsd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/vhs/vhs.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/vhsd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/vhsd.pid"
+
+# Where to write vhsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/vhsd"
+
+# User and group to own vhsd process
+#BITCOIND_USER="vhs"
+#BITCOIND_GROUP="vhs"
+
+# Path to vhsd executable
+#BITCOIND_BIN="/usr/bin/vhsd"
+
+# Nice value to run vhsd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
