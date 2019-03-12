@@ -22,7 +22,7 @@ First install the toolchains:
 
 Acquire the source in the usual way:
 
-    git clone https://github.com/VHSNetwork/VHS.git
+    git clone https://github.com/VHScomputing/VHS
     
 To build executables for Windows 32-bit:
 
